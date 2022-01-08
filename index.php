@@ -12,7 +12,7 @@
 ];
 $context = stream_context_create($opts);
 */
-Header('Content-Type: application/json','Accept: application/json');
+Header('Content-Type: application/json');
 $api_url='https://api.tracker.gg/api/v2/valorant/standard/matches/riot/7AM%20FakeAnanas%23TTV?type=competitive';
 
 $json_data = file_get_contents($api_url);
