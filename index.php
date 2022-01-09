@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 // DOCS: https://www.php.net/manual/en/function.stream-context-create.php
 
